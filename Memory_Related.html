@@ -127,9 +127,9 @@
 <h2>Context</h2>
 <p>Games involve different game objects, and assets which consumes a lot of memory. This memory storage should be used wisely, otherwise it can cause memory related issues.</p>
 <h2>Problem</h2>
-<p>Memory related problems such as segmentation fault, memory leak, buffer overflow, and so on are the consequences which can be observed if there is any issue involving memory.</p>
+<p> Memory leak causes reduction in available memory for usage, which causes bad performance.</p>
 <h2>Solution</h2>
-<p>To avoid memory problems, developers should free up the unnecessary variables and game objects, and should use the idea of data locality [1]. Developers should use object pool where memory can be reused instead of allocating and freeing them everytime [1].</p>
+<p>To avoid memory leak problem, developers should free up the unnecessary variables and game objects, and should use the idea of data locality [1]. Developers should use object pool where memory can be reused instead of allocating and freeing them everytime [1].</p>
 <h2>Example</h2>
 <p>Consider an arcade game, where different game objects keeps on appearing and disappearing in the game play. These objects needs to be handled carefully in the memory to avoid memory leak.</p>
 <h3>Reference</h3>

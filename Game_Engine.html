@@ -121,15 +121,15 @@
 		</div>
 	</nav>
   <div class="container text-center">
-<h1>Inheritance From Game Engines/Frameworks</h1>
+<h1>Inheritance from Game Engines/Frameworks</h1>
 <h4>(65 occurrences)</h4>
 <p>Nowadays, games are often developed using any framework or game engine that simplifies the task of game developers by providing a set of templates/ modules which prevent them from developing the game from scratch [1].</p>
 <h2>Context</h2>
-<p>Games are often developed by utilizing any existing game engine/frameworks. But with the advantage of using them, there is a drawback also which causes the anti-patterns to get inherited in the game.</p>
+<p>Games are often developed by utilizing any existing game engine.  But the usage of game engines can sometimes cause the anti-patterns to get inherited in the game.</p>
 <h2>Problem</h2>
-<p>The Software Nuggets inherited can cause affect functional and non-functional requirements of the game.</p>
+<p> The anti-patterns inherited can affect functional and non-functional requirements of the game.</p>
 <h2>Solution</h2>
-<p>We should be aware of the Software Nuggets present in the game engine or various frameworks, and should resolve it before using it for the development. Game engines/frameworks should be examined for the existence of any anti-pattern/code smell which can be inherited by the game, and thus should be removed at the time of development.</p>
+<p>We should be aware of the anti-pattern present in the game engine/frameworks and should resolve it before using it for the development of the game. Game engines should be examined for the existence of any anti-pattern which can be inherited by the game, and thus should be removed at the time of development.</p>
 <h2>Example</h2>
 <p>Consider a board game using a chess library, that is used for chess piece placement/movement, move generation/validation, and check/checkmate/stalemate detection. Thus, if there exists an issue in any one of the rules of checkmate detection, then it can lead to the wrong detection for the game, that gets inherited from the chess library.</p>
 <h3>Reference</h3>
